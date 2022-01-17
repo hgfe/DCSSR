@@ -45,7 +45,7 @@ python train.py --scale_factor 2 --batch_size 8 --fold 1234 --device cuda:0 --tr
 
 ### Prepare test data
 
-Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put the testset (such as Davinci_fold1_test) into `data/test/`.
+Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put the testset (such as Davinci_fold1_test) into `data/test/`. Examples (60 pairs) have been uploaded to `data/test/Davinci_fold5_test`.
 
 ### Pretrained models
 
