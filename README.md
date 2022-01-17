@@ -62,7 +62,7 @@ python test.py --scale_factor 2 --fold 1234 --device cuda:0 --trainset_name Davi
 
 ## Results of 5-fold Cross Validation
 
-Please refer to RESULT.md in this repo.
+Please refer to [RESULT.md](https://github.com/hgfe/DCSSR/blob/main/RESULT.md) in this repo.
 
 ### da Vinci Dataset (x2)
 
