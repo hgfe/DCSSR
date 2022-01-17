@@ -13,12 +13,19 @@ The da Vinci Dataset contains 6300 pairs of stereo laparoscopic images, divided 
 ### Requirements
 
 pytorch
+
 numpy
+
 matplotlib
+
 scikit-image
+
 torchvision
+
 pandas
+
 tqdm
+
 PIL
 
 ### Prepare training data 
@@ -28,7 +35,7 @@ PIL
 
 ### Training
 
-Here is an example commands to train DCSSR.
+Here is an example to train DCSSR.
 ```
 # Training
 python train.py --scale_factor 2 --batch_size 8 --fold 1234 --device cuda:0 --trainset_name Davinci
@@ -46,7 +53,7 @@ An example of pretrained model has been uploaded to this repo in `model/x2/'. Al
 
 ### Test
 
-Here is an example commands to test DCSSR.
+Here is an example to test DCSSR.
 ```
 # Test
 python test.py --scale_factor 2 --fold 1234 --device cuda:0 --trainset_name Davinci --dataset Davinci_fold5_test
