@@ -12,17 +12,30 @@ The da Vinci Dataset contains 6300 pairs of stereo laparoscopic images, divided 
 
 ### Prepare training data and environment
 
-
+1. Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put into `data/train/`.
+2. Environment
 
 ### Training
 
+Here is an example commands to train DCSSR.
+```
+# Training
+python train.py --scale_factor 2 --batch_size 8 --fold 1234 --device cuda:0 --trainset_name Davinci
+```
 
 ## Testing
 
 ### Prepare test data
 
+Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put the testset (such as Davinci_fold1_test) into `data/test/`.
 
 ### Test
+
+Here is an example commands to test DCSSR.
+```
+# Test
+python test.py --scale_factor 2 --fold 1234 --device cuda:0 --trainset_name Davinci --dataset Davinci_fold5_test
+```
 
 ## Results of 5-fold Cross Validation
 ### da Vinci Dataset (x2)
