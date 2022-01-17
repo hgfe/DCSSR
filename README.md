@@ -1,11 +1,12 @@
 # DCSSR
 
-
+Pytorch implementation of "Disparity-Constrained Stereo Endoscopic Image Super-Resolution"
 
 ## Da Vinci Dataset
 
 https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing
 
+The da Vinci Dataset contains 6300 pairs of stereo laparoscopic images, divided into 5 folds. The size of the frame is 512 $\times$ 512
 
 ## 5-fold Cross Validation Results
 
@@ -145,3 +146,7 @@ SSIM
 |a3       |0.9874±0.0016|0.9870±0.0022|0.9872±0.0034|0.9874±0.0020|0.9872±0.0036|0.9872±0.0026|
 |a4       |0.9874±0.0016|0.9870±0.0023|0.9873±0.0034|0.9874±0.0020|0.9872±0.0037|0.9873±0.0026|
 |a5       |0.9874±0.0015|0.9870±0.0023|0.9872±0.0034|0.9875±0.0020|0.9872±0.0036|0.9873±0.0026|
+
+## Acknowledgement
+
+The codes are based on [PASSRnet](https://github.com/The-Learning-And-Vision-Atelier-LAVA/PASSRnet). Please also follow their licenses. Thanks for their awesome works.
