@@ -4,9 +4,9 @@ Pytorch implementation of "Disparity-Constrained Stereo Endoscopic Image Super-R
 
 ## Da Vinci Dataset
 
-https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing
+[Download](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing)
 
-The da Vinci Dataset contains 6300 pairs of stereo laparoscopic images, divided into 5 folds. The size of the frame is 512x512.
+The da Vinci Dataset contains 6300 pairs of stereo laparoscopic images, divided into 5 folds. The size of the frame is 512\times512.
 
 ## Training
 
@@ -43,7 +43,7 @@ Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916
 
 ### Pretrained models
 
-An example of pretrained model has been uploaded to this repo in `model/x2/'. All the pretrained models are provided [here](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing).
+An example of pretrained model has been uploaded to this repo in `model/x2/'. All the pretrained models are provided [here](https://drive.google.com/drive/folders/1NoHq-AyZszmTM7x7Oznj_i9EtCqETBAI?usp=sharing).
 
 ### Test
 
