@@ -12,21 +12,14 @@ The da Vinci Dataset contains 6300 pairs of stereo laparoscopic images, divided 
 
 ### Requirements
 
-pytorch
-
-numpy
-
-matplotlib
-
-scikit-image
-
-torchvision
-
-pandas
-
-tqdm
-
-PIL
+pytorch    
+numpy    
+matplotlib    
+scikit-image    
+torchvision    
+pandas   
+tqdm    
+PIL  
 
 ### Prepare training data 
 
