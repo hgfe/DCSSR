@@ -31,7 +31,8 @@ PIL
 ### Prepare training data 
 
 1. Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put into `data/train/`.
-2. 
+2. Run `data/train/generate_trainset.m` to generate training patches.
+3. Example training set has been uploaded to `data/train/Davinci_patches_fold1`.
 
 ### Training
 
@@ -45,7 +46,7 @@ python train.py --scale_factor 2 --batch_size 8 --fold 1234 --device cuda:0 --tr
 
 ### Prepare test data
 
-Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put the testset (such as Davinci_fold1_test) into `data/test/`. Examples (60 pairs) have been uploaded to `data/test/Davinci_fold5_test`.
+Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put the testset (such as Davinci_fold1_test) into `data/test/`. Examples (10 pairs) have been uploaded to `data/test/Davinci_fold5_test`.
 
 ### Pretrained models
 
