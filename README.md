@@ -10,10 +10,21 @@ The da Vinci Dataset contains 6300 pairs of stereo laparoscopic images, divided 
 
 ## Training
 
-### Prepare training data and environment
+### Requirements
+
+pytorch
+numpy
+matplotlib
+scikit-image
+torchvision
+pandas
+tqdm
+PIL
+
+### Prepare training data 
 
 1. Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put into `data/train/`.
-2. Environment
+2. 
 
 ### Training
 
@@ -28,6 +39,10 @@ python train.py --scale_factor 2 --batch_size 8 --fold 1234 --device cuda:0 --tr
 ### Prepare test data
 
 Download the [da Vinci Dataset](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing) and put the testset (such as Davinci_fold1_test) into `data/test/`.
+
+### Pretrained models
+
+An example of pretrained model has been uploaded to this repo in `model/x2/'. All the pretrained models are provided [here](https://drive.google.com/drive/folders/1ov7tX916DrPRqrsaaKInR-jLtQHgVPAe?usp=sharing).
 
 ### Test
 
