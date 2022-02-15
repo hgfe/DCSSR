@@ -23,9 +23,20 @@ def parse_args():
     parser.add_argument('--fold', type=str, default='0000')
     return parser.parse_args()
 
+   
+def setup_seed(seed):
+    '''Set the fixed random seed''' 
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
     
 def train(train_loader, cfg):
 
+    seed = 100
+    setup_seed(seed)
     net = DCSSR(cfg.scale_factor).to(cfg.device)
     net.apply(weights_init_xavier)
     cudnn.benchmark = True
